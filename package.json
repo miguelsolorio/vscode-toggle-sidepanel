@@ -2,6 +2,8 @@
   "name": "side-panel-toggle",
 	"displayName": "Side Panel Toggle",
 	"description": "A toggle to open the side panel from the status bar",
+	"publisher": "miguelsolorio",
+	"icon": "icon.png",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.61.0"
