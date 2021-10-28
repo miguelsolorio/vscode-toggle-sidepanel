@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "sidepanel";
+    src: url("./sidepanel.ttf?9e0c64f38f7bdcc761a7a03e4e4141f3") format("truetype"),
+url("./sidepanel.woff?9e0c64f38f7bdcc761a7a03e4e4141f3") format("woff");
+}
+
+i[class^="sidepanel-"]:before, i[class*=" sidepanel-"]:before {
+    font-family: sidepanel !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.sidepanel-toggle:before {
+    content: "\f101";
+}
