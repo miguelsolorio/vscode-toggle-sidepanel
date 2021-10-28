@@ -1,6 +1,6 @@
 {
-  "name": "miguelsolorio",
-	"displayName": "toggle-sidepanel",
+  "name": "side-panel-toggle",
+	"displayName": "Side Panel Toggle",
 	"description": "A toggle to open the side panel from the status bar",
 	"version": "0.0.1",
 	"engines": {
@@ -10,7 +10,7 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:miguelsolorio.helloWorld"
+        "*"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
